@@ -1,0 +1,10 @@
+site_name: "LetterBomb Mailbox Parser & Embedded ELF Loader Documentation"
+site_description: "Technical documentation for embedded IPC message parsing, stack bounds checks, and clean ELF payload verification."
+site_url: https://letterbomb.readthedocs.io/
+theme:
+  name: readthedocs
+
+nav:
+  - "Embedded ELF Verification & Overview": index.md
+  - "ELF Program Headers & Memory Alignment": elf-segments.md
+  - "Security Disclosure & Software Release Wires": telemetry-and-wire-protocols.md
